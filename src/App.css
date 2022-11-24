@@ -1,0 +1,21 @@
+.playContainer {
+  display: flex;
+  height: 60px;
+}
+.box {
+  position: relative;
+  transition: all ease-out;
+  width: 24px;
+  height: 48px;
+  background-color: #ccc;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.num-list {
+  position: absolute;
+  top: 0;
+  width: 24px;
+  text-align: center;
+  line-height: 48px;
+}
